@@ -1,0 +1,20 @@
+{
+  
+  "name": "next-15-starter-kit",
+  "version": "1.0.0",
+  "description": "My personal starter kit for Next.js 15 and React 19.",
+  "author": "Erik Lopez",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "next": "^15.1.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
