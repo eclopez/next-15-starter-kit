@@ -1,16 +1,14 @@
-import { Metadata } from "next";
-import { Header } from "@/components/header";
+import { Metadata } from 'next';
+import { Header } from '@/components/header';
 
-import "@/styles/global.css";
+import '@/styles/global.css';
 
 const metadata: Metadata = {
-  title: "Next 15 Starter Kit",
-  description: "Starting point for Next.js 15 projects",
+  title: 'Next 15 Starter Kit',
+  description: 'Starting point for Next.js 15 projects',
 };
 
-interface RootLayoutProps {}
-
-function RootLayout(props: React.PropsWithChildren<RootLayoutProps>) {
+function RootLayout(props: React.PropsWithChildren<object>) {
   const { children } = props;
 
   return (
@@ -24,3 +22,4 @@ function RootLayout(props: React.PropsWithChildren<RootLayoutProps>) {
 }
 
 export default RootLayout;
+export { metadata };
