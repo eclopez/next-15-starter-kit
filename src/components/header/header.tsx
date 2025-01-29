@@ -3,10 +3,12 @@ interface HeaderProps extends React.HTMLAttributes<HTMLElement> {
 }
 
 function Header(props: HeaderProps) {
-  const { text, ...others } = props;
+  const { className, text, ...others } = props;
   return (
-    <header {...others}>
-      <h1>{text}</h1>
+    <header className={`bg-black ${className}`} {...others}>
+      <h1 className="font-medium font-serif text-heading-1 text-white">
+        {text}
+      </h1>
     </header>
   );
 }
