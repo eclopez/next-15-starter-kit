@@ -29,8 +29,8 @@ function RootLayout(props: React.PropsWithChildren<object>) {
   return (
     <html lang="en" className={`${roboto.variable} ${robotoSerif.variable}`}>
       <body className="antialiased font-roboto">
-        <Header className="p-2" text="Site" />
-        <div className="p-2">{children}</div>
+        <Header text="Site" />
+        <div className="p-4">{children}</div>
       </body>
     </html>
   );
