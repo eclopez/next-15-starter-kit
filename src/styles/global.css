@@ -1,12 +1,10 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-*: initial;
   --color-clear: transparent;
   --color-black: #000000;
   --color-white: #ffffff;
 
-  --text-*: initial;
   --text: 1rem;
   --text-caption: 0.625rem, 0.875rem;
   --text-body-sm: 0.75rem, 1.125rem;
