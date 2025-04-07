@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
     console.log(`tracking: ${JSON.stringify(res)}`);
 
     return NextResponse.json(res);
-  } catch (error) {
+  } catch {
     return NextResponse.error();
   }
 }
