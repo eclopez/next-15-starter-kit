@@ -23,6 +23,11 @@ function Header(props: HeaderProps) {
               About
             </Link>
           </li>
+          <li>
+            <Link className="text-white" href="/posts">
+              Posts
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
