@@ -12,6 +12,7 @@ function middleware(req: NextRequest) {
   } = req;
 
   if (!pathname.includes('/_next/')) {
+    // Example for logging page views
     console.log(`Logging ${pathname}`);
   }
 }
